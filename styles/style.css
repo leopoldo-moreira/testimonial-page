@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FAFAF9;
+}
+
+.star {
+  background-image: #52525A;
+}/*# sourceMappingURL=style.css.map */

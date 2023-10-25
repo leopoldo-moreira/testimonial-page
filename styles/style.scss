@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+// alguns mixins
+
+@mixin text-heading{
+    font-size: 36px;
+    font-family: Sora, sans-serif;    
+}
+
+@mixin text-body{
+    font-size: 20px;
+    font-family: Sora, sans-serif; 
+}
+
+@mixin text-body2{
+    font-size: 16px;
+    font-family: Sora, sans-serif; 
+}
+
+@mixin text-list-item{
+    font-size: 14px;
+    font-family: Sora, sans-serif; 
+}
+
+// estilizando a página
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAFAF9;    
+}
+
+
+//linear-gradient(to bottom, white 50%, #F5C044)
+.star{
+   background-image: #52525A ;
+}
