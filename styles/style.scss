@@ -32,8 +32,46 @@ body{
     background-color: #FAFAF9;    
 }
 
+.main{
+    display: flex;
+    flex-direction: row;       
+    padding: 60px 30px;
+}
 
-//linear-gradient(to bottom, white 50%, #F5C044)
+.left-content{
+      
+    height: 50%;
+    width: 50%;
+}
+
 .star{
-   background-image: #52525A ;
+    z-index: 1;
+    border-radius: 100%;    
+    background-color: #F5C044;
+}
+
+h1{
+    @include text-heading();
+}
+
+p{
+    @include text-body();
+}
+
+.check-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.check{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.descriptions > span {
+    display: block;
+    line-height: 24px;
+    margin-left: 10px;
+    @include text-body2();
+    margin-bottom: 10px;
 }

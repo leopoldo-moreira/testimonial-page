@@ -7,6 +7,48 @@ body {
   background-color: #FAFAF9;
 }
 
+.main {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 30px;
+}
+
+.left-content {
+  height: 50%;
+  width: 50%;
+}
+
 .star {
-  background-image: #52525A;
+  z-index: 1;
+  border-radius: 100%;
+  background-color: #F5C044;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: Sora, sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: Sora, sans-serif;
+}
+
+.check-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.check {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.descriptions > span {
+  display: block;
+  line-height: 24px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: Sora, sans-serif;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
