@@ -48,33 +48,79 @@ p {
   display: block;
   line-height: 24px;
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 14px;
   font-family: Sora, sans-serif;
   margin-bottom: 10px;
 }
 
-.avaliaty {
-  border: solid 1px blue;
+.right-content {
   width: 50%;
-  padding: 15px 15px;
+  padding: 0px 30px;
+}
+
+.testimonial {
+  width: 60%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
   background-color: #FFFFFF;
   border-radius: 15px;
+  justify-content: left;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
 }
 
 .logo-stars {
-  display: flex;
-  flex-direction: row;
-  border: solid 1px red;
+  height: 40%;
   width: -moz-fit-content;
   width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .logo {
-  width: 40%;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 10px;
+  display: flex;
+  justify-content: left;
 }
 
-.first-star {
-  margin-left: 10px;
-  fill: antiquewhite;
-  border: none;
+.company-logo {
+  width: 85px;
+}
+
+.stars {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.avaliaty-star {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.people-name {
+  font-size: 15px;
+  font-family: Sora, sans-serif;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.testimonial-descriptions {
+  font-size: 15px;
+  font-family: Sora, sans-serif;
+}
+
+.testimonial-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.testimonial-right {
+  margin-top: 25px;
 }/*# sourceMappingURL=style.css.map */
