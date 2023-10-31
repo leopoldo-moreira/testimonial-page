@@ -30,7 +30,8 @@
 }
 
 body{
-    background-color: #FAFAF9;    
+    background-color: #FAFAF9;   
+     
 }
 
 .main{
@@ -40,7 +41,7 @@ body{
 }
 
 .left-content{
-      
+    min-width: 50%;  
     height: 50%;
     width: 50%;
 }
@@ -80,7 +81,8 @@ p{
 .right-content{
     
     width: 50%;
-    padding: 0px 30px;    
+    padding: 0px 30px;   
+    min-width: 50%; 
 }
 
 .testimonial{    
@@ -91,16 +93,17 @@ p{
     background-color: #FFFFFF;
     border-radius: 15px;
     justify-content: left;
-    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05); 
+    min-width: 300px;      
 }
 
-.logo-stars{
-    
+.logo-stars{    
     height: 40%;
     width: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 .logo{
@@ -116,16 +119,14 @@ p{
 }
 
 .stars{
-    width: fit-content;
+        
     height: 100%;    
     display: flex;
-    flex-direction: row;
+
 }
 
-.avaliaty-star{
-    
-    height: fit-content;    
-    
+.avaliaty-star{    
+    height: fit-content;      
 }
 
 .people-name{
@@ -146,4 +147,22 @@ p{
 
 .testimonial-right{
     margin-top: 25px;
+}
+
+@media (max-width: 750px){
+    .main{
+        flex-direction: column;
+    }
+
+    .right-content{
+        margin-top: 30px;        
+        padding: 0px;
+        width: 100%;
+    }
+
+    .left-content{
+        width: 100%;
+    }
+
+    
 }
